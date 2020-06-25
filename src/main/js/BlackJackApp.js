@@ -19,7 +19,7 @@ class BlackJackApp extends React.Component {
         this.state = {
             gameId: null,
             currPage: this.Pages.LOGIN,
-            baseApiUrl: "http://localhost:8080/api/blackjack"
+            baseApiUrl: "api/blackjack"
         };
     }
 
